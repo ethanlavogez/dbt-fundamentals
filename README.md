@@ -49,7 +49,7 @@ Le cours étant conçu pour Snowflake, plusieurs adaptations ont été nécessai
 - **Nom de la base** : le fichier s'appelle `raw.duckdb`, car DuckDB nomme la base d'après le fichier. Les références `raw.jaffle_shop.*` du cours fonctionnent ainsi sans modification.
 - **Limites rencontrées** : `dbt source freshness` n'est pas encore implémenté pour l'adaptateur DuckDB (bêta) dans dbt v2.
 
-## Ce que j'ai appris
+## Ce que j'ai appris.
 
 - Structurer un projet dbt en couches (sources → staging → marts) et appliquer les conventions de nommage (`stg_`, `fct_`, `dim_`)
 - Utiliser `source()` et `ref()` pour construire automatiquement le DAG
